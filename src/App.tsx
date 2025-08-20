@@ -72,6 +72,10 @@ export default function BuddyRandomizer() {
   const [currentDisplayB, setCurrentDisplayB] = useState<string>("Temasek Polytechnic")
   const [buddies, setBuddies] = useState<Buddy[]>([])
 
+  const showBuddyPopup = (teamA: Person, teamB: Person) => {
+    setSelectedBuddy([teamA, teamB])
+    setShowPopup(true)
+  }
   const randomizeBuddies = () => {
     const availableTeamA = teamA.filter((person) => !person.isSelected)
     const availableTeamB = teamB.filter((person) => !person.isSelected)
@@ -89,10 +93,11 @@ export default function BuddyRandomizer() {
     let speedB = 50
     let countA = 0
     let countB = 0
-    const maxCount = 40
+    const maxCount = 100
 
-    const finalPersonA = availableTeamA[Math.floor(Math.random() * availableTeamA.length)]
-    const finalPersonB = availableTeamB[Math.floor(Math.random() * availableTeamB.length)]
+    var finalPersonA = availableTeamA[Math.floor(Math.random() * availableTeamA.length)]
+    var finalPersonB = availableTeamB[Math.floor(Math.random() * availableTeamB.length)]
+    console.log(finalPersonB)
 
     const animateTeamA = () => {
       intervalA = setInterval(() => {
@@ -312,7 +317,7 @@ export default function BuddyRandomizer() {
                 <h3 className="text-lg font-bold text-gray-800 mb-4 text-center">Buddy List</h3>
                 <div className="space-y-2">
                   {buddies.map((buddy) => (
-                    <div key={buddy.id} className="border-2 border-green-200 bg-green-50 rounded-lg p-3">
+                    <button key={buddy.id} className="border-2 border-green-200 bg-green-50 rounded-lg p-3" onClick={() => showBuddyPopup(buddy.personA, buddy.personB)}>
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-4">
                           <div className="bg-green-100 text-green-800 border border-green-200 px-2 py-1 rounded-full text-sm">
@@ -339,7 +344,7 @@ export default function BuddyRandomizer() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </button>
                   ))}
                 </div>
               </div>
