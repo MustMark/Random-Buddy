@@ -62,7 +62,13 @@ const allPersonTeamB: Person[] = [
   { id: "T20", name: "ZAINAB MOAZZAM VEHMI", image: "../public/picture/temasek_picture/T20.jpg", ig: "mark_peerawat" },
 ];
 
+// Can only set randomized order for one team
+// Otherwise, it would lock the buddy result
+const randomizedOrderteamA: Person[] = [allPersonTeamA[0], allPersonTeamA[5]]
+const randomizedOrderteamB: Person[] = []
+
 export default function BuddyRandomizer() {
+  const tickSound = new Audio("../public/tick.wav")
   const [teamA, setTeamA] = useState<Person[]>(allPersonTeamA)
   const [teamB, setTeamB] = useState<Person[]>(allPersonTeamB)
   const [selectedBuddy, setSelectedBuddy] = useState<[Person | null, Person | null]>([null, null])
@@ -87,6 +93,8 @@ export default function BuddyRandomizer() {
     }
 
     setIsAnimating(true)
+    tickSound.currentTime = 0
+    tickSound.play().catch(() => {})
 
     let intervalA: NodeJS.Timeout
     let intervalB: NodeJS.Timeout
@@ -96,8 +104,19 @@ export default function BuddyRandomizer() {
     let countB = 0
     const maxCount = 100
 
-    var finalPersonA = availableTeamA[Math.floor(Math.random() * availableTeamA.length)]
-    var finalPersonB = availableTeamB[Math.floor(Math.random() * availableTeamB.length)]
+    if (buddies.length < randomizedOrderteamA.length){
+      var finalPersonA = randomizedOrderteamA[buddies.length]
+    }
+    else {
+      var finalPersonA = availableTeamA[Math.floor(Math.random() * availableTeamA.length)]
+    }
+    
+    if (buddies.length < randomizedOrderteamB.length){
+      var finalPersonB = randomizedOrderteamB[buddies.length]
+    }
+    else {
+      var finalPersonB = availableTeamB[Math.floor(Math.random() * availableTeamB.length)]
+    }
 
     const animateTeamA = () => {
       intervalA = setInterval(() => {
