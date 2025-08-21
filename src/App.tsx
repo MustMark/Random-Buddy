@@ -16,66 +16,67 @@ interface Buddy {
   personB: Person
 }
 
-const initialTeamA: Person[] = [
-  { id: "K1", name: "Napat Changpradit (Pu)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K2", name: "Natnaree Weerakul (Aily)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K3", name: "Teerasak Jantarovas (Guitar)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K4", name: "Tamtikorn Kietipungchai (Gan)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K5", name: "Peerawat Ingkhasantatikul (Mark)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K6", name: "Sukrit Suwanprasert (Phoom)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K7", name: "Noppawit Tharakittikirati (Earth)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K8", name: "Komsanti Bunyaprasop (Four)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K9", name: "Boonnisa Samlee (Bell)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K10", name: "Phojanin Phanbaukaew (Pound)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K11", name: "Arpasiri Kaewsangsri (Yam)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K12", name: "Methavee Pisitwanichakul (Vava)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K13", name: "Thitsanapat Siwarattanan (Tang)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K14", name: "Woranat Uttachanyakul (Praew)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K15", name: "Kanlachan Homsiang (Prabpram)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K16", name: "Thanakrit Nilsuwanwong (Firm)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K17", name: "Paspan Nores (Toeyhom)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K18", name: "Warinladha Chermchan (Dream)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K19", name: "Panida Nitjin (Nida)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "K20", name: "Anyamanee Songkittiphong (Namprung)", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
+const allPersonTeamA: Person[] = [
+  { id: "K1", name: "Napat Changpradit (Pu)", image: "../public/picture/kmtil_picture/K1.jpeg", ig: "mark_peerawat" },
+  { id: "K2", name: "Natnaree Weerakul (Aily)", image: "../public/picture/kmtil_picture/K2.JPG", ig: "mark_peerawat" },
+  { id: "K3", name: "Teerasak Jantarovas (Guitar)", image: "../public/picture/kmtil_picture/K3.jpg", ig: "mark_peerawat" },
+  { id: "K4", name: "Tamtikorn Kietipungchai (Gan)", image: "../public/picture/kmtil_picture/K4.jpg", ig: "mark_peerawat" },
+  { id: "K5", name: "Peerawat Ingkhasantatikul (Mark)", image: "../public/picture/kmtil_picture/K5.jpg", ig: "mark_peerawat" },
+  { id: "K6", name: "Sukrit Suwanprasert (Phoom)", image: "../public/picture/kmtil_picture/K6.png", ig: "mark_peerawat" },
+  { id: "K7", name: "Noppawit Tharakittikirati (Earth)", image: "../public/picture/kmtil_picture/K7.jpg", ig: "mark_peerawat" },
+  { id: "K8", name: "Komsanti Bunyaprasop (Four)", image: "../public/picture/kmtil_picture/K8.jpg", ig: "mark_peerawat" },
+  { id: "K9", name: "Boonnisa Samlee (Bell)", image: "../public/picture/kmtil_picture/K9.JPG", ig: "mark_peerawat" },
+  { id: "K10", name: "Phojanin Phanbaukaew (Pound)", image: "../public/picture/kmtil_picture/K10.JPG", ig: "mark_peerawat" },
+  { id: "K11", name: "Arpasiri Kaewsangsri (Yam)", image: "../public/picture/kmtil_picture/K11.jpg", ig: "mark_peerawat" },
+  { id: "K12", name: "Methavee Pisitwanichakul (Vava)", image: "../public/picture/kmtil_picture/K12.jpg", ig: "mark_peerawat" },
+  { id: "K13", name: "Thitsanapat Siwarattanan (Tang)", image: "../public/picture/kmtil_picture/K13.png", ig: "mark_peerawat" },
+  { id: "K14", name: "Woranat Uttachanyakul (Praew)", image: "../public/picture/kmtil_picture/K14.jpg", ig: "mark_peerawat" },
+  { id: "K15", name: "Kanlachan Homsiang (Prabpram)", image: "../public/picture/kmtil_picture/K15.jpg", ig: "mark_peerawat" },
+  { id: "K16", name: "Thanakrit Nilsuwanwong (Firm)", image: "../public/picture/kmtil_picture/K16.jpg", ig: "mark_peerawat" },
+  { id: "K17", name: "Paspan Nores (Toeyhom)", image: "../public/picture/kmtil_picture/K17.jpg", ig: "mark_peerawat" },
+  { id: "K18", name: "Warinladha Chermchan (Dream)", image: "../public/picture/kmtil_picture/K18.jpeg", ig: "mark_peerawat" },
+  { id: "K19", name: "Panida Nitjin (Nida)", image: "../public/picture/kmtil_picture/K19.JPG", ig: "mark_peerawat" },
+  { id: "K20", name: "Anyamanee Songkittiphong (Namprung)", image: "../public/picture/kmtil_picture/K20.jpg", ig: "mark_peerawat" },
 ];
 
-const initialTeamB: Person[] = [
-  { id: "T1", name: "ADRIAN SAMUEL HERNANDEZ ESPIRITU", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T2", name: "ANUMITHA SOMASUNDARAM", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T3", name: "BRYAN OOI WEI JIE", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T4", name: "CHAN XI EN CHARLENE", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T5", name: "CHENG CHENGHAO", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T6", name: "CHU HONG KAI", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T7", name: "DELYNNA TAN XUAN LIN", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T8", name: "DIVYA ANOOP GANWANI", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T9", name: "JOY TEO RU MEI", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T10", name: "JULIAN CHARLES CYRIL COLLEEMALLAY", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T11", name: "LEE MAY HUI", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T12", name: "LEE SHI YUN EMMA", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T13", name: "NG QI WEI RYAN", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T14", name: "ONG I-HO", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T15", name: "PEARLYN WEE LI WEN", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T16", name: "RUTH GOH EN QI", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T17", name: "SATHIS BABU LAKSHMI PRABHA", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T18", name: "TAN YONG QI ELWIN", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T19", name: "VEERAPANDIAN ASVIKA", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
-  { id: "T20", name: "ZAINAB MOAZZAM VEHMI", image: "/placeholder.svg?height=100&width=100", ig: "mark_peerawat" },
+const allPersonTeamB: Person[] = [
+  { id: "T1", name: "ADRIAN SAMUEL HERNANDEZ ESPIRITU", image: "../public/picture/temasek_picture/T1.jpeg", ig: "mark_peerawat" },
+  { id: "T2", name: "ANUMITHA SOMASUNDARAM", image: "../public/picture/temasek_picture/T2.jpeg", ig: "mark_peerawat" },
+  { id: "T3", name: "BRYAN OOI WEI JIE", image: "../public/picture/temasek_picture/T3.jpg", ig: "mark_peerawat" },
+  { id: "T4", name: "CHAN XI EN CHARLENE", image: "../public/picture/temasek_picture/T4.jpg", ig: "mark_peerawat" },
+  { id: "T5", name: "CHENG CHENGHAO", image: "../public/picture/temasek_picture/T5.png", ig: "mark_peerawat" },
+  { id: "T6", name: "CHU HONG KAI", image: "../public/picture/temasek_picture/T6.jpeg", ig: "mark_peerawat" },
+  { id: "T7", name: "DELYNNA TAN XUAN LIN", image: "../public/picture/temasek_picture/T5.png", ig: "mark_peerawat" },
+  { id: "T8", name: "DIVYA ANOOP GANWANI", image: "../public/picture/temasek_picture/T8.jpg", ig: "mark_peerawat" },
+  { id: "T9", name: "JOY TEO RU MEI", image: "../public/picture/temasek_picture/T9.jpeg", ig: "mark_peerawat" },
+  { id: "T10", name: "JULIAN CHARLES CYRIL COLLEEMALLAY", image: "../public/picture/temasek_picture/T10.jpg", ig: "mark_peerawat" },
+  { id: "T11", name: "LEE MAY HUI", image: "../public/picture/temasek_picture/T11.jpg", ig: "mark_peerawat" },
+  { id: "T12", name: "LEE SHI YUN EMMA", image: "../public/picture/temasek_picture/T12.jpg", ig: "mark_peerawat" },
+  { id: "T13", name: "NG QI WEI RYAN", image: "../public/picture/temasek_picture/T13.png", ig: "mark_peerawat" },
+  { id: "T14", name: "ONG I-HO", image: "../public/picture/temasek_picture/T14.jpg", ig: "mark_peerawat" },
+  { id: "T15", name: "PEARLYN WEE LI WEN", image: "../public/picture/temasek_picture/T15.jpeg", ig: "mark_peerawat" },
+  { id: "T16", name: "RUTH GOH EN QI", image: "../public/picture/temasek_picture/T16.JPG", ig: "mark_peerawat" },
+  { id: "T17", name: "SATHIS BABU LAKSHMI PRABHA", image: "../public/picture/temasek_picture/T17.jpeg", ig: "mark_peerawat" },
+  { id: "T18", name: "TAN YONG QI ELWIN", image: "../public/picture/temasek_picture/T18.JPG", ig: "mark_peerawat" },
+  { id: "T19", name: "VEERAPANDIAN ASVIKA", image: "../public/picture/temasek_picture/T19.png", ig: "mark_peerawat" },
+  { id: "T20", name: "ZAINAB MOAZZAM VEHMI", image: "../public/picture/temasek_picture/T20.jpg", ig: "mark_peerawat" },
 ];
 
 export default function BuddyRandomizer() {
-  const [teamA, setTeamA] = useState<Person[]>(initialTeamA)
-  const [teamB, setTeamB] = useState<Person[]>(initialTeamB)
+  const [teamA, setTeamA] = useState<Person[]>(allPersonTeamA)
+  const [teamB, setTeamB] = useState<Person[]>(allPersonTeamB)
   const [selectedBuddy, setSelectedBuddy] = useState<[Person | null, Person | null]>([null, null])
   const [isAnimating, setIsAnimating] = useState(false)
   const [showPopup, setShowPopup] = useState(false)
-  const [currentDisplayA, setCurrentDisplayA] = useState<string>("KMITL")
-  const [currentDisplayB, setCurrentDisplayB] = useState<string>("Temasek Polytechnic")
+  const [currentDisplayA, setCurrentDisplayA] = useState<string | undefined>("../public/picture/kmtil_picture/KMITL.png")
+  const [currentDisplayB, setCurrentDisplayB] = useState<string | undefined>("../public/picture/temasek_picture/Temasek.png")
   const [buddies, setBuddies] = useState<Buddy[]>([])
 
   const showBuddyPopup = (teamA: Person, teamB: Person) => {
     setSelectedBuddy([teamA, teamB])
     setShowPopup(true)
   }
+
   const randomizeBuddies = () => {
     const availableTeamA = teamA.filter((person) => !person.isSelected)
     const availableTeamB = teamB.filter((person) => !person.isSelected)
@@ -97,23 +98,22 @@ export default function BuddyRandomizer() {
 
     var finalPersonA = availableTeamA[Math.floor(Math.random() * availableTeamA.length)]
     var finalPersonB = availableTeamB[Math.floor(Math.random() * availableTeamB.length)]
-    console.log(finalPersonB)
 
     const animateTeamA = () => {
       intervalA = setInterval(() => {
         const randomPerson = availableTeamA[Math.floor(Math.random() * availableTeamA.length)]
-        setCurrentDisplayA(randomPerson.name)
+        setCurrentDisplayA(randomPerson.image)
         countA++
 
         if (countA > maxCount * 0.7) {
-          speedA += 20
+          speedA += 5
           clearInterval(intervalA)
           setTimeout(animateTeamA, speedA)
         }
 
         if (countA >= maxCount) {
           clearInterval(intervalA)
-          setCurrentDisplayA(finalPersonA.name)
+          setCurrentDisplayA(finalPersonA.image)
         }
       }, speedA)
     }
@@ -121,7 +121,7 @@ export default function BuddyRandomizer() {
     const animateTeamB = () => {
       intervalB = setInterval(() => {
         const randomPerson = availableTeamB[Math.floor(Math.random() * availableTeamB.length)]
-        setCurrentDisplayB(randomPerson.name)
+        setCurrentDisplayB(randomPerson.image)
         countB++
 
         if (countB > maxCount * 0.7) {
@@ -132,7 +132,7 @@ export default function BuddyRandomizer() {
 
         if (countB >= maxCount) {
           clearInterval(intervalB)
-          setCurrentDisplayB(finalPersonB.name)
+          setCurrentDisplayB(finalPersonB.image)
         }
       }, speedB)
     }
@@ -153,36 +153,29 @@ export default function BuddyRandomizer() {
         personB: finalPersonB,
       }
       setBuddies((prev) => [...prev, newBuddy])
-
       setSelectedBuddy([finalPersonA, finalPersonB])
-      setCurrentDisplayA(finalPersonA.name)
-      setCurrentDisplayB(finalPersonB.name)
+      setCurrentDisplayA(finalPersonA.image)
+      setCurrentDisplayB(finalPersonB.image)
       setIsAnimating(false)
       setShowPopup(true)
     }, 3000)
   }
 
   const resetAll = () => {
-    setTeamA(initialTeamA.map((person) => ({ ...person, isSelected: false })))
-    setTeamB(initialTeamB.map((person) => ({ ...person, isSelected: false })))
+    setTeamA(allPersonTeamA.map((person) => ({ ...person, isSelected: false })))
+    setTeamB(allPersonTeamB.map((person) => ({ ...person, isSelected: false })))
     setSelectedBuddy([null, null])
     setShowPopup(false)
-    setCurrentDisplayA("KMITL")
-    setCurrentDisplayB("Temasek Polytechnic")
+    setCurrentDisplayA("../public/picture/kmtil_picture/KMITL.png")
+    setCurrentDisplayB("../public/picture/temasek_picture/Temasek.png")
     setBuddies([])
   }
 
-  const SlotMachine = ({ team, color, currentDisplay }: { team: string; color: string; currentDisplay: string }) => (
+  const SlotMachine = ({ team, color, currentDisplay }: { team: string; color: string; currentDisplay: string | undefined }) => (
     <div className="flex flex-col items-center">
       <div className={`w-40 h-40 rounded-full border-8 ${color} relative overflow-hidden bg-white shadow-lg`}>
         <div className="absolute inset-0 flex items-center justify-center p-4">
-          <div
-            className={`w-32 h-32 rounded-full ${color.replace("border-", "bg-").replace("-500", "-50")} flex items-center justify-center border-2 ${color.replace("border-", "border-").replace("-500", "-200")}`}
-          >
-            <span className={`text-center font-bold text-sm leading-tight ${isAnimating ? "animate-pulse" : ""}`}>
-              {currentDisplay}
-            </span>
-          </div>
+          <img src={currentDisplay} className="w-full h-full object-cover rounded-full"></img>
         </div>
         <div className="absolute inset-0">
           {[...Array(8)].map((_, i) => (
@@ -206,11 +199,8 @@ export default function BuddyRandomizer() {
       className={`w-full max-w-sm mx-auto transition-all duration-300 hover:shadow-lg border-4 ${teamColor} bg-white rounded-lg`}
     >
       <div className="text-center pb-4 p-6">
-        <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center text-lg font-semibold">
-          {person.name
-            .split(" ")
-            .map((n) => n[0])
-            .join("")}
+        <div className="w-64 h-64 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center text-lg font-semibold">
+          <img src={person.image} className="w-full h-full object-cover rounded-full"></img>
         </div>
         <h3 className="text-xl font-bold text-gray-800 mb-2">{person.name}</h3>
         <div className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm inline-block">{person.id[0] == 'K' ? "KMITL" : "Temasek Polytechnic"}</div>
@@ -224,7 +214,7 @@ export default function BuddyRandomizer() {
   )
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <div className="min-h-screen min-w-screen">
       <div className="h-screen w-screen flex flex-col">
         {/* Header */}
         <div className="text-center py-6 bg-white/80 backdrop-blur-sm border-b">
@@ -235,9 +225,9 @@ export default function BuddyRandomizer() {
           </div>
         </div>
 
-        {/* Main Content - Horizontal Layout */}
+        {/* Body */}
         <div className="flex-1 flex">
-          {/* Left Team List */}
+          {/* Team A List */}
           <div className="w-1/4 bg-blue-50/50 p-4 overflow-y-auto">
             <div className="text-center mb-4">
               <div className="bg-blue-100 text-blue-800 border border-blue-200 px-3 py-2 rounded-full inline-block">
@@ -258,10 +248,7 @@ export default function BuddyRandomizer() {
                         person.isSelected ? "bg-gray-200 text-gray-500" : "bg-blue-100 text-blue-800"
                       }`}
                     >
-                      {person.name
-                        .split(" ")
-                        .map((n) => n[0])
-                        .join("")}
+                      <img src={person.image} className="w-full h-full object-cover rounded-full"></img>
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3
@@ -280,7 +267,7 @@ export default function BuddyRandomizer() {
             </div>
           </div>
 
-          {/* Center - Slot Machines and Controls */}
+          {/* Slot Machine */}
           <div className="flex-1 flex flex-col items-center p-8">
             <div className="flex justify-center items-center gap-16 mb-8">
               <SlotMachine team="KMITL" color="border-blue-500" currentDisplay={currentDisplayA} />
@@ -325,20 +312,14 @@ export default function BuddyRandomizer() {
                           </div>
                           <div className="flex items-center gap-2">
                             <div className="w-6 h-6 rounded-full bg-blue-100 text-blue-800 text-xs flex items-center justify-center font-semibold">
-                              {buddy.personA.name
-                                .split(" ")
-                                .map((n) => n[0])
-                                .join("")}
+                              <img src={buddy.personA.image} className="w-full h-full object-cover rounded-full"></img>
                             </div>
                             <span className="font-semibold text-gray-800 text-xs">{buddy.personA.name}</span>
                           </div>
                           <span className="text-gray-400 font-bold">and</span>
                           <div className="flex items-center gap-2">
                             <div className="w-6 h-6 rounded-full bg-purple-100 text-purple-800 text-xs flex items-center justify-center font-semibold">
-                              {buddy.personB.name
-                                .split(" ")
-                                .map((n) => n[0])
-                                .join("")}
+                              <img src={buddy.personB.image} className="w-full h-full object-cover rounded-full"></img>
                             </div>
                             <span className="font-semibold text-gray-800 text-xs">{buddy.personB.name}</span>
                           </div>
@@ -351,7 +332,7 @@ export default function BuddyRandomizer() {
             )}
           </div>
 
-          {/* Right Team List */}
+          {/* Team B List */}
           <div className="w-1/4 bg-purple-50/50 p-4 overflow-y-auto">
             <div className="text-center mb-4">
               <div className="bg-purple-100 text-purple-800 border border-purple-200 px-3 py-2 rounded-full inline-block">
@@ -372,10 +353,7 @@ export default function BuddyRandomizer() {
                         person.isSelected ? "bg-gray-200 text-gray-500" : "bg-purple-100 text-purple-800"
                       }`}
                     >
-                      {person.name
-                        .split(" ")
-                        .map((n) => n[0])
-                        .join("")}
+                      <img src={person.image} className="w-full h-full object-cover rounded-full"></img>
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3
