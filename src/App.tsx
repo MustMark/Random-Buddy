@@ -54,10 +54,10 @@ const allPersonTeamB: Person[] = [
   { id: "T11", name: "LEE MAY HUI (May Hui)", image: "../public/picture/temasek_picture/T11.jpg", ig: "eeyer._.eww", contact_no: "(+65) 88365960" },
   { id: "T12", name: "LEE SHI YUN EMMA (Emma)", image: "../public/picture/temasek_picture/T12.jpg", ig: "poopootoildt", contact_no: "(+65) 86878836" },
   { id: "T13", name: "NG QI WEI RYAN (Ryan)", image: "../public/picture/temasek_picture/T13.png", ig: "-", contact_no: "(+65) 97848915" },
-  { id: "T14", name: "ONG I-HO (I-Ho)", image: "../public/picture/temasek_picture/T14.jpg", ig: "-", contact_no: "(+65) 89282177" },
+  { id: "T14", name: "ONG I-HO (I-Ho)", image: "../public/picture/temasek_picture/T14.jpg", ig: "350_mrtt", contact_no: "(+65) 89282177" },
   { id: "T15", name: "PEARLYN WEE LI WEN (Pearlyn)", image: "../public/picture/temasek_picture/T15.jpeg", ig: "p3arlynnnn", contact_no: "(+65) 97289133" },
   { id: "T16", name: "RUTH GOH EN QI (Ruth)", image: "../public/picture/temasek_picture/T16.JPG", ig: "rootgoh", contact_no: "(+65) 91779713" },
-  { id: "T17", name: "SATHIS BABU LAKSHMI PRABHA (Lakshmi)", image: "../public/picture/temasek_picture/T17.jpeg", ig: "-", contact_no: "(+65) 80340029" },
+  { id: "T17", name: "SATHIS BABU LAKSHMI PRABHA (Lakshmi)", image: "../public/picture/temasek_picture/T17.jpeg", ig: "hippohabibi", contact_no: "(+65) 80340029" },
   { id: "T18", name: "TAN YONG QI ELWIN (Elwin)", image: "../public/picture/temasek_picture/T18.JPG", ig: "elwwwwwinn", contact_no: "(+65) 82011331" },
   { id: "T19", name: "VEERAPANDIAN ASVIKA (Asvika)", image: "../public/picture/temasek_picture/T19.png", ig: "asvi_kaaa", contact_no: "(+65) 83361467" },
   { id: "T20", name: "ZAINAB MOAZZAM VEHMI (Zainab)", image: "../public/picture/temasek_picture/T20.jpg", ig: "baniazz04", contact_no: "(+65) 93891224" },
@@ -65,6 +65,7 @@ const allPersonTeamB: Person[] = [
 
 // Can only set randomized order for one team
 // Otherwise, it would lock the buddy result
+// Phoom (allPersonTeamA[5]) and Pound (allPersonTeamA[9]) want to ramdomize first because have other things to do.
 const randomizedOrderteamA: Person[] = [allPersonTeamA[5], allPersonTeamA[9]]
 const randomizedOrderteamB: Person[] = []
 
@@ -241,7 +242,7 @@ export default function BuddyRandomizer() {
         <div className="text-center py-6 bg-white/80 backdrop-blur-sm border-b">
           <div className="flex items-center justify-center gap-3 mb-2">
             <h1 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-rose-600 bg-clip-text text-transparent">
-              Buddy Randomizer
+              TF SCALE 2025 Buddy Randomizer
             </h1>
           </div>
         </div>
