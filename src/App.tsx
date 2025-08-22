@@ -19,7 +19,7 @@ interface Buddy {
 
 const allPersonTeamA: Person[] = [
   { id: "K1", name: "Napat Changpradit (Pu)", image: "../public/picture/kmtil_picture/K1.jpeg", ig: "napat_nc" , contact_no: "(+66) 652377717" },
-  { id: "K2", name: "Natnaree Weerakul (Aily)", image: "../public/picture/kmtil_picture/K2.JPG", ig: "-", contact_no: "(+66) 639476222"},
+  { id: "K2", name: "Natnaree Weerakul (Aily)", image: "../public/picture/kmtil_picture/K2.JPG", ig: "aily6269", contact_no: "(+66) 639476222"},
   { id: "K3", name: "Teerasak Jantarovas (Guitar)", image: "../public/picture/kmtil_picture/K3.jpg", ig: "supervolance", contact_no: "(+66) 922278462" },
   { id: "K4", name: "Tamtikorn Kietipungchai (Gan)", image: "../public/picture/kmtil_picture/K4.jpg", ig: "gan_gun112", contact_no: "(+66) 988595020" },
   { id: "K5", name: "Peerawat Ingkhasantatikul (Mark)", image: "../public/picture/kmtil_picture/K5.jpg", ig: "mark_peerawat", contact_no: "(+66) 812895077" },
@@ -32,40 +32,40 @@ const allPersonTeamA: Person[] = [
   { id: "K12", name: "Methavee Pisitwanichakul (Vava)", image: "../public/picture/kmtil_picture/K12.jpg", ig: "matsur.in", contact_no: "(+66) 956586359" },
   { id: "K13", name: "Thitsanapat Siwarattanan (Tang)", image: "../public/picture/kmtil_picture/K13.png", ig: "ttang.st13", contact_no: "(+66) 965760649" },
   { id: "K14", name: "Woranat Uttachanyakul (Praew)", image: "../public/picture/kmtil_picture/K14.jpg", ig: "fullofwise", contact_no: "(+66) 814861203" },
-  { id: "K15", name: "Kanlachan Homsiang (Prabpram)", image: "../public/picture/kmtil_picture/K15.jpg", ig: "-", contact_no: "(+66) 629251216" },
-  { id: "K16", name: "Thanakrit Nilsuwanwong (Firm)", image: "../public/picture/kmtil_picture/K16.jpg", ig: "-", contact_no: "(+66) 882814937" },
+  { id: "K15", name: "Kanlachan Homsiang (Prabpram)", image: "../public/picture/kmtil_picture/K15.jpg", ig: "my_name_prabpram", contact_no: "(+66) 629251216" },
+  { id: "K16", name: "Thanakrit Nilsuwanwong (Firm)", image: "../public/picture/kmtil_picture/K16.jpg", ig: "firmthanakrit", contact_no: "(+66) 882814937" },
   { id: "K17", name: "Paspan Nores (Toeyhom)", image: "../public/picture/kmtil_picture/K17.jpg", ig: "-", contact_no: "(+66) 970579451" },
-  { id: "K18", name: "Warinladha Chermchan (Dream)", image: "../public/picture/kmtil_picture/K18.jpeg", ig: "-", contact_no: "(+66) 958320550" },
-  { id: "K19", name: "Panida Nitjin (Nida)", image: "../public/picture/kmtil_picture/K19.JPG", ig: "-", contact_no: "(+66) 616788839" },
-  { id: "K20", name: "Anyamanee Songkittiphong (Namprung)", image: "../public/picture/kmtil_picture/K20.jpg", ig: "-", contact_no: "(+66) 991168746" },
+  { id: "K18", name: "Warinladha Chermchan (Dream)", image: "../public/picture/kmtil_picture/K18.jpeg", ig: "demiideam", contact_no: "(+66) 958320550" },
+  { id: "K19", name: "Panida Nitjin (Nida)", image: "../public/picture/kmtil_picture/K19.JPG", ig: "nearlynida", contact_no: "(+66) 616788839" },
+  { id: "K20", name: "Anyamanee Songkittiphong (Namprung)", image: "../public/picture/kmtil_picture/K20.jpg", ig: "n.nam_prung", contact_no: "(+66) 991168746" },
 ];
 
 const allPersonTeamB: Person[] = [
-  { id: "T1", name: "ADRIAN SAMUEL HERNANDEZ ESPIRITU", image: "../public/picture/temasek_picture/T1.jpeg", ig: "-", contact_no: "(+65) 97271875" },
-  { id: "T2", name: "ANUMITHA SOMASUNDARAM", image: "../public/picture/temasek_picture/T2.jpeg", ig: "-", contact_no: "(+65) 90121136" },
-  { id: "T3", name: "BRYAN OOI WEI JIE", image: "../public/picture/temasek_picture/T3.jpg", ig: "-", contact_no: "(+65) 88205965" },
-  { id: "T4", name: "CHAN XI EN CHARLENE", image: "../public/picture/temasek_picture/T4.jpg", ig: "-", contact_no: "(+65) 87166424" },
-  { id: "T5", name: "CHENG CHENGHAO", image: "../public/picture/temasek_picture/T5.png", ig: "-", contact_no: "(+65) 87153048" },
-  { id: "T6", name: "CHU HONG KAI", image: "../public/picture/temasek_picture/T6.jpeg", ig: "-", contact_no: "(+65) 83325332" },
-  { id: "T7", name: "DELYNNA TAN XUAN LIN", image: "../public/picture/temasek_picture/T7.png", ig: "-", contact_no: "(+65) 91905891" },
-  { id: "T8", name: "DIVYA ANOOP GANWANI", image: "../public/picture/temasek_picture/T8.jpg", ig: "-", contact_no: "(+65) 88214211" },
-  { id: "T9", name: "JOY TEO RU MEI", image: "../public/picture/temasek_picture/T9.jpeg", ig: "-", contact_no: "(+65) 83324501" },
-  { id: "T10", name: "JULIAN CHARLES CYRIL COLLEEMALLAY", image: "../public/picture/temasek_picture/T10.jpg", ig: "-", contact_no: "(+65) 81634197" },
-  { id: "T11", name: "LEE MAY HUI", image: "../public/picture/temasek_picture/T11.jpg", ig: "-", contact_no: "(+65) 88365960" },
-  { id: "T12", name: "LEE SHI YUN EMMA", image: "../public/picture/temasek_picture/T12.jpg", ig: "-", contact_no: "(+65) 86878836" },
-  { id: "T13", name: "NG QI WEI RYAN", image: "../public/picture/temasek_picture/T13.png", ig: "-", contact_no: "(+65) 97848915" },
-  { id: "T14", name: "ONG I-HO", image: "../public/picture/temasek_picture/T14.jpg", ig: "-", contact_no: "(+65) 89282177" },
-  { id: "T15", name: "PEARLYN WEE LI WEN", image: "../public/picture/temasek_picture/T15.jpeg", ig: "-", contact_no: "(+65) 97289133" },
-  { id: "T16", name: "RUTH GOH EN QI", image: "../public/picture/temasek_picture/T16.JPG", ig: "-", contact_no: "(+65) 91779713" },
-  { id: "T17", name: "SATHIS BABU LAKSHMI PRABHA", image: "../public/picture/temasek_picture/T17.jpeg", ig: "-", contact_no: "(+65) 80340029" },
-  { id: "T18", name: "TAN YONG QI ELWIN", image: "../public/picture/temasek_picture/T18.JPG", ig: "-", contact_no: "(+65) 82011331" },
-  { id: "T19", name: "VEERAPANDIAN ASVIKA", image: "../public/picture/temasek_picture/T19.png", ig: "-", contact_no: "(+65) 83361467" },
-  { id: "T20", name: "ZAINAB MOAZZAM VEHMI", image: "../public/picture/temasek_picture/T20.jpg", ig: "-", contact_no: "(+65) 93891224" },
+  { id: "T1", name: "ADRIAN SAMUEL HERNANDEZ ESPIRITU (Adrian E.)", image: "../public/picture/temasek_picture/T1.jpeg", ig: "-", contact_no: "(+65) 97271875" },
+  { id: "T2", name: "ANUMITHA SOMASUNDARAM (Anumitha)", image: "../public/picture/temasek_picture/T2.jpeg", ig: "anoomeeda", contact_no: "(+65) 90121136" },
+  { id: "T3", name: "BRYAN OOI WEI JIE (Bryan)", image: "../public/picture/temasek_picture/T3.jpg", ig: "bryowj", contact_no: "(+65) 88205965" },
+  { id: "T4", name: "CHAN XI EN CHARLENE (Charlene)", image: "../public/picture/temasek_picture/T4.jpg", ig: "-", contact_no: "(+65) 87166424" },
+  { id: "T5", name: "CHENG CHENGHAO (Chenghao)", image: "../public/picture/temasek_picture/T5.png", ig: "c.ch183_", contact_no: "(+65) 87153048" },
+  { id: "T6", name: "CHU HONG KAI (Hong Kai)", image: "../public/picture/temasek_picture/T6.jpeg", ig: "kong2hai3", contact_no: "(+65) 83325332" },
+  { id: "T7", name: "DELYNNA TAN XUAN LIN (Delynnaa)", image: "../public/picture/temasek_picture/T7.png", ig: "dyqwr", contact_no: "(+65) 91905891" },
+  { id: "T8", name: "DIVYA ANOOP GANWANI (Divya)", image: "../public/picture/temasek_picture/T8.jpg", ig: "-", contact_no: "(+65) 88214211" },
+  { id: "T9", name: "JOY TEO RU MEI (Joy)", image: "../public/picture/temasek_picture/T9.jpeg", ig: "trm.j1", contact_no: "(+65) 83324501" },
+  { id: "T10", name: "JULIAN CHARLES CYRIL COLLEEMALLAY (Charles)", image: "../public/picture/temasek_picture/T10.jpg", ig: "-", contact_no: "(+65) 81634197" },
+  { id: "T11", name: "LEE MAY HUI (May Hui)", image: "../public/picture/temasek_picture/T11.jpg", ig: "eeyer._.eww", contact_no: "(+65) 88365960" },
+  { id: "T12", name: "LEE SHI YUN EMMA (Emma)", image: "../public/picture/temasek_picture/T12.jpg", ig: "poopootoildt", contact_no: "(+65) 86878836" },
+  { id: "T13", name: "NG QI WEI RYAN (Ryan)", image: "../public/picture/temasek_picture/T13.png", ig: "-", contact_no: "(+65) 97848915" },
+  { id: "T14", name: "ONG I-HO (I-Ho)", image: "../public/picture/temasek_picture/T14.jpg", ig: "-", contact_no: "(+65) 89282177" },
+  { id: "T15", name: "PEARLYN WEE LI WEN (Pearlyn)", image: "../public/picture/temasek_picture/T15.jpeg", ig: "p3arlynnnn", contact_no: "(+65) 97289133" },
+  { id: "T16", name: "RUTH GOH EN QI (Ruth)", image: "../public/picture/temasek_picture/T16.JPG", ig: "rootgoh", contact_no: "(+65) 91779713" },
+  { id: "T17", name: "SATHIS BABU LAKSHMI PRABHA (Lakshmi)", image: "../public/picture/temasek_picture/T17.jpeg", ig: "-", contact_no: "(+65) 80340029" },
+  { id: "T18", name: "TAN YONG QI ELWIN (Elwin)", image: "../public/picture/temasek_picture/T18.JPG", ig: "elwwwwwinn", contact_no: "(+65) 82011331" },
+  { id: "T19", name: "VEERAPANDIAN ASVIKA (Asvika)", image: "../public/picture/temasek_picture/T19.png", ig: "asvi_kaaa", contact_no: "(+65) 83361467" },
+  { id: "T20", name: "ZAINAB MOAZZAM VEHMI (Zainab)", image: "../public/picture/temasek_picture/T20.jpg", ig: "baniazz04", contact_no: "(+65) 93891224" },
 ];
 
 // Can only set randomized order for one team
 // Otherwise, it would lock the buddy result
-const randomizedOrderteamA: Person[] = [allPersonTeamA[0], allPersonTeamA[5]]
+const randomizedOrderteamA: Person[] = [allPersonTeamA[5], allPersonTeamA[9]]
 const randomizedOrderteamB: Person[] = []
 
 export default function BuddyRandomizer() {
@@ -277,7 +277,7 @@ export default function BuddyRandomizer() {
                       >
                         {person.name}
                       </h3>
-                      <p className={`text-xs truncate ${person.isSelected ? "text-gray-400" : "text-gray-600"}`}>
+                      <p className={`flex flex-col text-xs truncate ${person.isSelected ? "text-gray-400" : "text-gray-600"}`}>
                         <span className="font-medium mr-4">IG : {person.ig}</span>
                         <span className="font-medium">Contact Number : {person.contact_no}</span>
                       </p>
@@ -383,7 +383,7 @@ export default function BuddyRandomizer() {
                       >
                         {person.name}
                       </h3>
-                      <p className={`text-xs truncate ${person.isSelected ? "text-gray-400" : "text-gray-600"}`}>
+                      <p className={`flex flex-col text-xs truncate ${person.isSelected ? "text-gray-400" : "text-gray-600"}`}>
                         <span className="font-medium mr-4">IG : {person.ig}</span>
                         <span className="font-medium">Contact Number : {person.contact_no}</span>
                       </p>
